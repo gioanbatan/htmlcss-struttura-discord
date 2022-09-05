@@ -11,6 +11,10 @@ html {
     font-family: 'Whitney';
 }
 
+hr {
+    margin: 2em 0;
+    color:#eeeeee;
+}
 .container {
     width: 70%;
     margin: 0 auto;
@@ -18,6 +22,10 @@ html {
 /* UTILITY */
 .bdashed {
     border: 1px dashed black;
+}
+
+.bwhite {
+    border-color: #ffffff;
 }
 
 /* HEADER */
@@ -42,7 +50,7 @@ header {
     font-size: 2rem;
 }
 
-#logo {
+.logo {
     width: 25%;
 
     display: flex;
@@ -135,5 +143,49 @@ nav ul {
 
 .p-big-content .text {
     width: 100%;
+
+    /* DEBUG */
     background-color: #228b22;
+}
+
+/* FOOTER */
+footer {
+    padding: 2em 0;
+
+    /* DEBUG */
+    background-color: #23272a;
+}
+
+.footer-links {
+    display: flex;
+
+    /* DEBUG */
+    height: 450px;
+    background-color: #20b2aa;
+}
+
+.social {
+    width: 30%;
+    /* DEBUG */
+    background-color: #f08080;
+}
+
+.links {
+    width: calc(70% / 4);
+    /* DEBUG */
+    background-color: #20b2aa;
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    height: 40px;    /* DEBUG */
+    background-color: #7fffd4;
+}
+
+.elements-bottom {
+    padding: 5px;
+    background-color: #ffb6c1;
 }
