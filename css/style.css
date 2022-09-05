@@ -6,6 +6,72 @@
 }
 
 /* COMMON */
-body {
-    background-color: brown;
+html {
+    font-size: 62.5%;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* HEADER */
+header {
+    height: 60px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* DEBUG */
+    background-color: #add8e6;
+}
+
+.header-bar {
+    height: 80%;
+    
+    display: flex;
+
+    /* DEBUG */
+    background-color: #daa520;
+    font-size: 2rem;
+}
+
+#logo {
+    width: 25%;
+
+    display: flex;
+    align-items: center;
+
+    /* DEBUG */
+    border: 1px dashed black;
+}
+
+nav {
+    width: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* DEBUG */
+    border: 1px dashed black;
+}
+
+nav ul {
+    list-style: none;
+
+    display: flex;
+    column-gap: 1em;
+}
+
+.login {
+    width: 25%;
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+    /* DEBUG */
+    border: 1px dashed black;
 }
