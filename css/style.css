@@ -12,8 +12,12 @@ html {
 }
 
 .container {
-    width: 80%;
+    width: 70%;
     margin: 0 auto;
+}
+/* UTILITY */
+.bdashed {
+    border: 1px dashed black;
 }
 
 /* HEADER */
@@ -43,9 +47,6 @@ header {
 
     display: flex;
     align-items: center;
-
-    /* DEBUG */
-    border: 1px dashed black;
 }
 
 nav {
@@ -54,9 +55,6 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
-
-    /* DEBUG */
-    border: 1px dashed black;
 }
 
 nav ul {
@@ -72,9 +70,6 @@ nav ul {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-
-    /* DEBUG */
-    border: 1px dashed black;
 }
 
 .jumbotron {
@@ -87,10 +82,58 @@ nav ul {
     background-color:#00008b;
 }
 
-.jumbotron-container {
+.jumbotron-content {
     height: 80%;
-    width: 65%;
+    width: 55%;
 
     /* DEBUG */
     background-color: #ee82ee;
+}
+
+/* MAIN */
+.paragraph {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    padding: 2em;
+    /* min-height: 400px; */
+}
+
+.paragraph.white {
+    background-color: #ffffff;
+}
+
+.paragraph.gray {
+    background-color: #d3d3d3;
+}
+
+.p-content {
+    display: flex;
+    
+    height: 350px;
+    width: 100%;
+}
+
+.p-content .image {
+    width: 60%;
+    background-color: #1e90ff;
+}
+
+.p-content .text {
+    width: 40%;
+    background-color: #ffc0cb;
+}
+
+.p-big-content {
+    display: flex;
+    
+    height: 550px;
+    width: 100%;
+}
+
+.p-big-content .text {
+    width: 100%;
+    background-color: #228b22;
 }
