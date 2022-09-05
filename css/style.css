@@ -8,6 +8,7 @@
 /* COMMON */
 html {
     font-size: 62.5%;
+    font-family: 'Whitney';
 }
 
 .container {
@@ -74,4 +75,22 @@ nav ul {
 
     /* DEBUG */
     border: 1px dashed black;
+}
+
+.jumbotron {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* DEBUG */
+    height: 400px;
+    background-color:#00008b;
+}
+
+.jumbotron-container {
+    height: 80%;
+    width: 65%;
+
+    /* DEBUG */
+    background-color: #ee82ee;
 }
